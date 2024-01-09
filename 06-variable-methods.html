@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Variable Methods</title>
+    <script>
+      const name = "Bootleg Bob";
+
+      ///Length of the string:
+      const length = name.length;
+
+      ///Case manipulation
+      const lowerCase = name.toLowerCase();
+      const upperCase = name.toUpperCase();
+
+      ///Replace (only 1)
+      const replaced = name.replace("o", "a");
+      ///ALL with regular expression
+      const replaceALL = name.replace(/o/g, "a");
+
+      ///Substring
+      const substring = name.substring(2, 8);
+
+      ///Array
+      const toArray = name.split(" ");
+
+      console.log({
+        length: length,
+        lowerCase: lowerCase,
+        upperCase: upperCase,
+        replaced: replaced,
+        replaceALL: replaceALL,
+        toArray: toArray,
+        substring: substring,
+      });
+    </script>
+  </head>
+  <body></body>
+</html>
