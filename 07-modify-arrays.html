@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Arrays</title>
+  </head>
+  <body>
+    <div id="output"></div>
+
+    <script>
+      const beatles = ["Ringo", "Paul", "what's his name?", "John"];
+      const beforeString = beatles.toString();
+      document.getElementById("output").innerHTML +=
+        "Before: " + beforeString + "<br>";
+      beatles[2] = "George";
+      const afterString = beatles.toString();
+      document.getElementById("output").innerHTML += "After: " + afterString;
+    </script>
+  </body>
+</html>
