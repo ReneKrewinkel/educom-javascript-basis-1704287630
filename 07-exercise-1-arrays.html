@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise #1</title>
+    <script>
+      const shoppingCart = [1, 2, 3, 4, 5, 8, 9, 10, 15, 16, 2, 3, 4, 8, 9];
+
+      let subtotal = 0;
+
+      shoppingCart.forEach((num) => {
+        subtotal += num;
+      });
+      let total = subtotal * 1.21;
+
+      console.log(`Subtotal = ${subtotal}`);
+      console.log(`Total (incl. 21% tax) =  ${total}`);
+    </script>
+  </head>
+</html>
