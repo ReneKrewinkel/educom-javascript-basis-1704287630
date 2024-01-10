@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Arrays with Objects</title>
+    <script>
+      const shoppingCart = [
+        { id: 1, name: "HTML Book", price: 12.5 },
+        { id: 2, name: "CSS Book", price: 10.0 },
+        { id: 3, name: "JavaScriptBook", price: 20.0 },
+      ];
+
+      let total = 0;
+      shoppingCart.forEach((item) => {
+        total += item.price;
+      });
+      console.log(`Total: ${total}`);
+    </script>
+  </head>
+</html>
