@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Objects</title>
+    <script>
+      let car = {
+        brand: "Fiat",
+        type: "500",
+        color: "Red",
+        weight: 850,
+      };
+      car.getWeight = function () {
+        return this.weight;
+      };
+      console.log(car.getWeight());
+    </script>
+  </head>
+</html>
